@@ -1,0 +1,32 @@
+body{
+	background-color: #f5f5f5;
+}
+h1{
+	color: #000;
+	font-family: "Arial";
+	font-size: 36px;
+    font-weight: bold;
+    margin: auto;
+}
+
+ul{
+	text-align: center;
+	color: #1f1f1f;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+}
+p{
+	opacity: .8; 
+    color: #1f1f1f; 
+    font-family: "Arial";
+    font-size: 14px;
+}
+img{
+	margin: 28px;
+}
+.kol h2{
+	text-align: center;
+}
+hr{
+	width: 490px;
+}
