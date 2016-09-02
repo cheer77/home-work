@@ -1,32 +1,110 @@
-body{
-	background-color: #f5f5f5;
-}
-h1{
-	color: #000;
-	font-family: "Arial";
-	font-size: 36px;
-    font-weight: bold;
-    margin: auto;
+*{
+	margin: 0;
+	padding: 0;
 }
 
-ul{
-	text-align: center;
-	color: #1f1f1f;
-    font-family: "Myriad Pro";
-    font-size: 18px;
+body{
+	background-color: #f9f9f9;
+	padding: 0px 0px 0px 150px;
+	}
+.content{
+	width: 1090px;
+	background-color: white;
+	border: 1px solid #c7c7c7; 
 }
-p{
-	opacity: .8; 
-    color: #1f1f1f; 
-    font-family: "Arial";
-    font-size: 14px;
-}
+
 img{
-	margin: 28px;
+	margin: 49px 42px 0px 17px
 }
-.kol h2{
-	text-align: center;
+ .menu1{
+ 	margin: 42px 0px 0px 45px;
+    padding: 0;
+    list-style-type: none;
+    width: 1000px;
+    border:0.5px solid #505050;
+    background-color: #505050;
+ }
+ .menu1 li{
+ 	display: inline;
+
+ }
+ .menu1 a{
+ 	color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.5); 
+    display: inline-block;
+    width: 100px;
+    line-height: 170%
+ }
+ .menu1 a:hover {
+    background-color: #656363;
 }
-hr{
-	width: 490px;
+.menu2{
+    margin: 42;
+    padding: 0;
+    list-style-type: none;
+    width: 100px;
+}
+.menu2 li{
+	width: 238px;
+    border-bottom: 0.5px solid #656363;
+}
+.menu2 a{
+	
+	background-color: #949494;
+    color:  #656363;;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
+    display: block;
+    border: 1px solid #c8c8c8;
+    background-color: #fff;
+}
+.menu2 a:hover{
+	background-color: #c8c8c8;
+}
+#velo img{
+	width: 677px;
+	border: 1px solid #c7c7c7; 
+	position: relative;
+	bottom: 374px;
+	left: 350px
+}
+ p{
+	color: #2c2b2b; 
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    width: 626px;
+    position: relative;
+    bottom: 350px;
+    left: 390px;	
+}
+.graund {
+ 	margin: 42px 0px 70px 45px;
+    padding: 0;
+    list-style-type: none;
+    width: 1000px;
+    border:0.5px solid #d7d7d7;
+    background-color: #d7d7d7;
+}
+.graund li{
+	display: inline;
+}
+.graund a{
+	color: #2c2c2c;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "OpenSans", sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    width: 100px;
+    line-height: 170%
+}
+.graund a:hover{
+	text-decoration: underline;
 }
